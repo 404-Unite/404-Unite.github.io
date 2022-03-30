@@ -266,17 +266,17 @@ body {
   transform: translateY(-2px);
   z-index: 20;
 }
-.draggable.blue-mon {
+.blue-side >.draggable {
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);	
 }
-.red-mon {
+.red-side >.draggable {
     border: 2px solid #e4825c;
     border-radius: 50%;
     background-color: #ca6e4a4d;
 }
 
-.blue-mon {
+.blue-side >.draggable {
 	border: 2px solid #8473fd;
     border-radius: 50%;
     background-color: #7c68ec4d;
